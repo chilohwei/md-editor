@@ -9,26 +9,26 @@
   >
     <div style="text-align: center">
       <h3>一款高度简洁的微信 Markdown 编辑器</h3>
-      <p>扫码关注公众号 Doocs，原创技术文章第一时间推送！</p>
+      <p>扫码关注公众号：魏奇洛，原创文章第一时间推送！</p>
       <img
-        src="https://cdn-doocs.oss-cn-shenzhen.aliyuncs.com/gh/doocs/md/images/1648303220922-7e14aefa-816e-44c1-8604-ade709ca1c69.png"
+        src="https://chilohdata.s3.bitiful.net/qrcode.jpg"
         style="width: 40%"
       />
     </div>
     <template slot="footer">
       <el-button
         type="primary"
-        @click="onRedirect('https://github.com/doocs/md')"
+        @click="onRedirect('https://github.com/chilohwei/md')"
         plain
       >
-        GitHub 仓库
+        项目地址
       </el-button>
       <el-button
         type="primary"
-        @click="onRedirect('https://gitee.com/doocs/md')"
+        @click="onRedirect('https://blog.chiloh.cn')"
         plain
       >
-        Gitee 仓库
+        作者博客
       </el-button>
     </template>
   </el-dialog>
