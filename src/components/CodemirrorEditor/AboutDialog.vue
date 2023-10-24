@@ -18,7 +18,7 @@
     <template slot="footer">
       <el-button
         type="primary"
-        @click="onRedirect('https://github.com/chilohwei/md')"
+        @click="onRedirect('https://github.com/chilohwei/md-editor')"
         plain
       >
         项目地址
